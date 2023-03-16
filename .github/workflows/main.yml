@@ -11,5 +11,5 @@ jobs:
         with:
           who-to-greet: 'Azeem the Mandalorian'
           
-      - run: chmod +x /goodbye.sh
+      - run: chmod +x ./goodbye.sh
         shell: bash
