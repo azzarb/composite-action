@@ -11,5 +11,5 @@ jobs:
         with:
           who-to-greet: 'Azeem the Mandalorian'
           
-      - run: chmod +x ./goodbye.sh
+      - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
