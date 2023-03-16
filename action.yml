@@ -21,6 +21,6 @@ runs:
       shell: bash
     - run: |
         chmod +x goodbye.sh
-        sh goodbye.sh
+        sh goodbye.sh ${{ inputs.who-to-greet }}
         
       shell: bash
