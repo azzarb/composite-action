@@ -11,6 +11,6 @@ jobs:
         with:
           who-to-greet: 'Mona the Octocat'
           
-      - run: chmod +x goodbye.sh
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
+          chmod +x goodbye.sh
         shell: bash
