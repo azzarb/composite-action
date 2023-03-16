@@ -1,2 +1,2 @@
-echo "Goodbye"
-
+echo "Goodbye "${1}
+ 
