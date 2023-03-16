@@ -12,6 +12,6 @@ jobs:
           who-to-greet: 'Mona the Octocat'
           
       - run: |
-          cd ${{ github.action_path }}
+          cd ${{ github.main.yml }}
           chmod +x goodbye.sh
         shell: bash
