@@ -12,6 +12,5 @@ jobs:
           who-to-greet: 'Azeem the Mandalorian'
           
       - run: |
-          cd ${{ github.main.yml }}
           chmod +x goodbye.sh
         shell: bash
