@@ -21,6 +21,6 @@ runs:
       shell: bash
     - run: |
         chmod +x goodbye.sh
-        goodbye.sh
+        sh goodbye.sh
         
       shell: bash
