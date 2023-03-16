@@ -9,7 +9,7 @@ jobs:
       - id: foo
         uses: azzarb/composite-action@main
         with:
-          who-to-greet: 'Azeem the Mandalorian'
+          who-to-greet: 'Arab the Mandalorian'
           
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
